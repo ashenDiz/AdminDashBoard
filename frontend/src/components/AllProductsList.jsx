@@ -20,7 +20,7 @@ const AllProductsList = () => {
     };
 
     fetchAllProducts();
-  }, []);
+  }, [products]);
 
   const deleteProduct = async (id) => {
     try {
