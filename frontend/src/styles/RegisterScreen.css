@@ -1,0 +1,98 @@
+.container {
+  background-image: linear-gradient(to right, #dcdcdc, #fefefe, #dcdcdc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0.5%;
+
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.register-name {
+  font-size: 30px;
+  margin-left: -300px;
+  margin-bottom: -10px;
+}
+
+.column-style {
+  display: flex;
+}
+.register-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 80px 50px 80px;
+  text-align: center;
+  border-radius: 100px;
+}
+.input-boxs {
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: #dbdbdb;
+  border: 0.5px solid rgb(92, 91, 91);
+  padding: 12px 20px;
+  letter-spacing: 1px;
+  margin: 20px 0;
+}
+
+.first-form-column,
+.second-form-column {
+  margin: 15px;
+}
+.register-button {
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #57547a;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 50px;
+  margin-bottom: -50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 60ms ease-in;
+}
+
+.register-button:active {
+  transform: scale(0.9);
+}
+
+.register-button:focus {
+  outline: invert;
+  color: #7e7e7e;
+}
+
+.Login-page-link {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+  color: #000000;
+}
+.register-login-link-lebel {
+  text-align: center;
+  font-size: 12px;
+  margin-left: 37%;
+  color: #000000;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.password-feedback {
+  color: rgb(0, 0, 0);
+}
+
+.paswwordstrenth {
+  font-size: 10px;
+  color: #000000;
+}

@@ -1,0 +1,116 @@
+.profile-container {
+  width: 80%;
+  margin-top: 7%;
+  margin-bottom: 13.5%;
+  margin-left: 10%;
+  padding: 20px;
+  border: 3px solid #9fa8ab;
+  border-radius: 5px;
+  background-color: #e2e3e3;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+#cfcf {
+  display: contents;
+}
+
+.user-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.user-item:hover {
+  background-color: #f9f9f9;
+}
+
+.download-pdf {
+  padding: 10px;
+  background-color: rgb(30, 63, 27);
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+}
+.download-pdf:hover {
+  background-color: #236849;
+}
+.update-button {
+  padding: 7px;
+  background-color: rgb(52, 57, 119);
+  border-radius: 5px;
+  color: white;
+  margin-left: 35%;
+}
+
+.update-button:hover {
+  background-color: #33429b;
+}
+
+.delete-button {
+  padding: 7px;
+  background-color: rgb(137, 0, 0);
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #ab3832;
+}
+
+.save-button {
+  padding: 6px 15px;
+  background-color: rgb(16, 147, 38);
+  border-radius: 5px;
+  color: white;
+  margin-left: 75px;
+  margin-top: 20px;
+  margin-right: 800px;
+}
+
+.save-button:hover {
+  background-color: #5ba76a;
+}
+
+.profile-container {
+  font-family: Helvetica;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  margin-left: 10px;
+}

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif !important;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 34%;
+  margin-right: 34%;
+  background-image: linear-gradient(to right, #dcdcdc, #fefefe, #dcdcdc);
+}
+
+.password-feedback {
+  color: rgb(79, 75, 107);
+}
+#header-icon {
+  margin-left: 80%;
+  margin-top: 2%;
+  color: rgb(21, 26, 99);
+}
+#header-icon:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: "bold";
+}
+
+h2 {
+  text-align: center;
+}
+
+span {
+  font-size: 12px;
+}
+
+.singin-button {
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #57547a;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-left: 25%;
+  transition: transform 60ms ease-in;
+  position: relative;
+  right: 57px;
+}
+
+.singin-button:active {
+  transform: scale(0.9);
+}
+
+.singin-button:focus {
+  outline: invert;
+}
+
+.login-input-boxe {
+  background-color: #dbdbdb;
+  border: 0.5px solid black;
+  padding: 10px 40px;
+  margin: 8px 0;
+  letter-spacing: 1px;
+  color: rgb(78, 78, 78);
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  max-width: 100%;
+  min-height: 480px;
+}
+
+/* ------------------------------------------------------------------------- */
+.login-name {
+  margin-bottom: 5px;
+  margin-left: -220px;
+  font-size: 30px;
+}
+
+.form-name {
+  align-items: center;
+  margin-bottom: 25px;
+  text-align: center;
+  background-image: linear-gradient(to right, #515151, #7872ad, #515151);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 40px;
+}
+
+.please-enter-a-password {
+  font-size: 10px;
+  margin-top: -25px;
+  margin-left: -170px;
+  margin-bottom: -15px;
+  color: #161616;
+}
+
+.incorectusername {
+  color: #070707;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 1px 0;
+}
+
+.dontaccont1 {
+  font-size: 8px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.login-registerpage-link-lebel {
+  color: #757575;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif !important ;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

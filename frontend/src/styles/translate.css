@@ -1,0 +1,238 @@
+/* translation.css */
+
+:root {
+  --primary-color: rgb(0, 92, 93);
+  --bg-color: #008e7b;
+  --light-bg-color: #ffffff;
+  --text-color: #000000;
+  --light-text-color: #ffffff;
+  --primary-text-color: #ffffff;
+  --border-color: #008e7b;
+  --logo-text-color: #757575;
+}
+
+.translator-container {
+  padding: 50px;
+  height: 700px;
+  color: var(--text-color);
+  /* background-color: rgb(203, 203, 203); */
+}
+
+.translator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+body.dark {
+  --bg-color: #111116;
+  --light-bg-color: #1c1b20;
+  --text-color: #f4f4f4;
+  --light-text-color: #58575c;
+  --border-color: #757575;
+  --logo-text-color: #cccccc;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.language-selector .language-dropdown {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  width: 150px;
+  margin: 0 5px;
+}
+
+.language-dropdown option {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.language-selector select:hover,
+.language-selector select:focus {
+  border-color: #007bff;
+}
+
+.swap-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 5px solid var(--bg-color);
+  transition: all 0.3s;
+  color: var(--primary-text-color);
+  background-color: var(--primary-color);
+}
+
+.swap-position ion-icon {
+  font-size: 25px;
+}
+
+.swap-position:hover {
+  transform: translateX(-50%) scale(1.1);
+}
+
+.translation-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  gap: 10px;
+}
+
+.input-box,
+.output-box {
+  flex: 1;
+  padding: 30px;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-box textarea,
+.output-box textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.text-area .chars {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.8rem;
+  color: var(--light-text-color);
+}
+
+.input-box:hover,
+.input-box:focus,
+.output-box:hover,
+.output-box:focus {
+  border-color: var(--primary-color);
+}
+
+.text-area {
+  position: relative;
+}
+
+.mode {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.toggle {
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-track {
+  width: 24px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3px 0;
+  justify-content: space-between;
+  border: 1px solid var(--border-color);
+  background-color: var(--light-bg-color);
+  transition: all 0.3s ease;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  transition: all 0.5s;
+}
+
+.toggle input:checked ~ .toggle-thumb {
+  transform: translateY(25px);
+}
+
+.toggle ion-icon {
+  font-size: 20px;
+}
+
+.translate-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.translate-btn:hover {
+  background-color: var(--primary-color);
+}
+
+@media (max-width: 800px) {
+  .translation-boxes {
+    width: 90%;
+  }
+}
+
+.translationoutput {
+  color: white;
+}
+
+.save-translation-item button {
+  background-color: #008e7b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none; /* Remove default outline */
+  margin-top: 50px;
+}
+
+.save-translation-item button:hover {
+  background-color: rgb(0, 92, 93);
+}
+
+.save-translation-item button:active {
+  background-color: #0a6f1b; /* Darken the button when clicked */
+}

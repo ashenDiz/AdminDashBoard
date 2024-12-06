@@ -1,0 +1,37 @@
+.container {
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 5px;
+}
+.aboutus-title {
+  align-items: center;
+  margin-bottom: 25px;
+  text-align: center;
+  background-image: linear-gradient(to right, #6a6a6a, #7872ad, #515151);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 40px;
+}
+
+.aboutu-spar {
+  font-size: 17px;
+  font-family: monospace;
+  color: rgb(38, 38, 38);
+}
+
+.aboutus-image {
+  border-radius: 5px;
+  width: 70%;
+  margin: 50px;
+}
+.container {
+  background-image: linear-gradient(to right, #d7d6d6, #ffffff, #dddddd);
+}
+
+#aboutuscontainer {
+  margin-top: 100px;
+}
