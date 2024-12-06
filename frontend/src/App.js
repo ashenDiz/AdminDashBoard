@@ -21,9 +21,9 @@ function Layout({ children }) {
   // Render layout
   return (
     <div className="App">
-      {showHeaderFooter && <Header />} {/* Removed since Header is no longer used */}
+      {showHeaderFooter } {/* Removed since Header is no longer used */}
       {children}
-      {showHeaderFooter && <Footer />} {/* Removed since Footer is no longer used */}
+      {showHeaderFooter } {/* Removed since Footer is no longer used */}
     </div>
   );
 }
